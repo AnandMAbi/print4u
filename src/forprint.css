@@ -1,0 +1,9 @@
+.fields {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 3em auto;
+    text-align: center;
+    justify-content: space-between;
+    min-height: 30vh;
+}
