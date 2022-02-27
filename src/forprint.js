@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./nav";
 import './forprint.css';
+import {Link} from 'react-router-dom';
 
 function Print () {
     return (
@@ -18,7 +19,9 @@ function Print () {
                 </div>
                 <input type="file" name="file" id="file" />
             </div>
-            <input type="submit" value="Submit" className="primary-btn" />
+            <Link to='/'>
+                <input type="submit" value="Submit" className="primary-btn" />
+            </Link>
         </div>
     );
 }

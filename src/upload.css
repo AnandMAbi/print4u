@@ -1,0 +1,35 @@
+.secondary-btn {
+    background-color: white;
+    border-color: #264653;
+    border-radius: 5px;
+    padding: 2em 3em;
+    border-width: 3px;
+    margin: 0.7em;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text {
+    margin: 3em;
+}
+
+.primary-btn{
+    background-color: #264653;
+    color: white;
+    border-radius: 10px;
+    padding: 1em 12em 1em 12em;
+    border-width: 0ch;
+    position: absolute;
+    bottom: 3em;
+    left: 1em;
+}
+
+.input{
+    content: 'Click to upload pdf or jpeg';
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5em 4em;
+    margin-top: 3em;
+    border: 1px solid #7AB2C9;
+    background-color: #F1F1F1;
+}
