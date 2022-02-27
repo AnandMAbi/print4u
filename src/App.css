@@ -1,3 +1,65 @@
+body{
+  margin: 50px;
+}
+
+.top{
+  text-align: left;
+  margin-top: 100px;
+}
+
+h1{
+  font-weight: bold;
+}
+
+h4{
+  font-weight: 200;
+}
+
+label{
+  font-size: small;  
+}
+
+input[type=text]{
+  border: 1px solid #264653; /*accepts different values; thickness, transparency color*/
+  background-color: lightgray;
+  width: 22em;
+  padding: 1em;
+  box-sizing: border-box; /*remember when combining padding along with width; you dont want the box to be jutted out in comparison with the page*/
+  border-radius: .5em; /* to make rounded edges*/
+}
+
+.form-email{
+  margin-top: 10em;
+}
+
+.form-pw{
+  margin-top: 1.2em;
+}
+
+.sign-btn{
+  margin-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+.sign-btn a{
+  color: gold;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+input[type=button]{
+  background-color: #264653;
+  border: none;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  padding: 1em 0;
+  border-radius: .5em;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
 .App {
   text-align: center;
 }

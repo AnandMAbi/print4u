@@ -7,3 +7,24 @@
     justify-content: space-between;
     min-height: 30vh;
 }
+
+input[type=file]{
+    border: 1px solid #264653; /*accepts different values; thickness, transparency color*/
+    background-color: lightgray;
+    width: 22em;
+    padding: 1em;
+    box-sizing: border-box; /*remember when combining padding along with width; you dont want the box to be jutted out in comparison with the page*/
+    border-radius: .5em; /* to make rounded edges*/
+  }
+
+  input[type=submit]{
+    background-color: #264653;
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 1em 0;
+    border-radius: .5em;
+    font-size: 1.3em;
+    cursor: pointer;
+  }
